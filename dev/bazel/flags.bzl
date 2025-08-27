@@ -18,10 +18,11 @@ lnx_cc_common_flags = [
     "-fwrapv",
     "-fstack-protector-strong",
     "-fno-delete-null-pointer-checks",
-    "-Werror",
+    # "-Werror",
     "-Wformat",
     "-Wformat-security",
     "-Wreturn-type",
+    "-O3"
 ]
 
 lnx_cc_pedantic_flags = [

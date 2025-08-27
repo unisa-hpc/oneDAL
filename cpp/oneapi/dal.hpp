@@ -49,6 +49,7 @@
 #include "oneapi/dal/io/csv.hpp"
 
 /* Algos */
+#include "oneapi/dal/algo/bfs.hpp"
 #include "oneapi/dal/algo/connected_components.hpp"
 #include "oneapi/dal/algo/covariance.hpp"
 #include "oneapi/dal/algo/decision_forest.hpp"

@@ -30,6 +30,15 @@ dal_example_suite(
 )
 
 dal_example_suite(
+    name = "breadth_first_search",
+    compile_as = [ "dpc++" ],
+    srcs = glob(["source/bfs/*.cpp"]),
+    dal_deps = [
+        "@onedal//cpp/oneapi/dal/algo:bfs_test",
+    ]
+)
+
+dal_example_suite(
     name = "kmeans_init",
     compile_as = [ "dpc++" ],
     srcs = glob(["source/kmeans_init/*.cpp"]),

@@ -12,6 +12,7 @@ PARAMETRIZED_ALGOS = [
 ]
 
 ALGOS = [
+    "bfs_test",
     "basic_statistics",
     "chebyshev_distance",
     "connected_components",

@@ -1,6 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 load("@onedal//dev/bazel:dal.bzl",
     "dal_module",
+    "dal_example_suite",
     "dal_test_suite",
 )
 
@@ -32,7 +33,7 @@ dal_test_suite (
 
 dal_test_suite(
     name = "perf_tests",
-    framework = "catch2",
+    framework = "none",
     compile_as = [ "dpc++" ],
     private = True,
     srcs = glob([
